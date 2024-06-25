@@ -38,7 +38,7 @@ for image_file in image_files:
 
         cv2.putText(
             frame,
-            dominant_gender,
+            dominant_gender, # shown in detection
             (x, y - 10),
             cv2.FONT_HERSHEY_SIMPLEX,
             0.9,
@@ -49,3 +49,6 @@ for image_file in image_files:
     cv2.imshow("Gender Detection", frame)
     cv2.waitKey(0)
 cv2.destroyAllWindows()
+
+
+# Project is running
