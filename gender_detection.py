@@ -46,5 +46,6 @@ for image_file in image_files:
             2,
         )
 
-
+    cv2.imshow("Gender Detection", frame)
+    cv2.waitKey(0)
 cv2.destroyAllWindows()
